@@ -2,3 +2,17 @@ title: Hendra Manudinata
 description: A site for homepage, blog, portofolio, whatever.
 google_analytics:
 theme: jekyll-theme-cayman
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+      #    layout: default
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: pages
+    values:
+      layout: default
