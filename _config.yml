@@ -9,11 +9,11 @@ baseurl:
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:name/
       #    layout: default
 
   posts:
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
 
 defaults:
   -
