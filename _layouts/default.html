@@ -10,7 +10,7 @@
       <h1 class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ site.description }}</h2>
 
-      <a href="{{ "" | absolute_url }}" class="btn">Home</a>
+      <a href="{{ "/" | absolute_url }}" class="btn">Home</a>
       {% for page in site.pages %}
       <a href="{{ page.url }}" class="btn">{{ page.title }}</a>
       {% endfor %}
