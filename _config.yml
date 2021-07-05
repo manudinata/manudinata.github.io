@@ -3,7 +3,8 @@ description: A site for homepage, blog, portofolio, whatever.
 google_analytics:
 theme: jekyll-theme-cayman
 
-url: "https://www.hendralize.my.id"
+url:
+baseurl:
 
 collections:
   pages:
