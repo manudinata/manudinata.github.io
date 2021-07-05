@@ -9,10 +9,20 @@ collections:
     permalink: /:name
       #    layout: default
 
+  posts:
+    permalink: /:collection/:title
+
 defaults:
   -
     scope:
       path: ''
       type: pages
+    values:
+      layout: default
+
+  -
+    scope:
+      path: ''
+      type: posts
     values:
       layout: default
